@@ -1,0 +1,47 @@
+# Documentation
+documents
+
+# Exports, Project settings
+.mtbLaunchConfigs
+.settings
+.vscode
+
+# Not required PALs
+../mtb_shared/optiga-trust-m/latest-v3.X/pal/NEW_PAL_TEMPLATE
+../mtb_shared/optiga-trust-m/latest-v3.X/pal/esp32_freertos
+../mtb_shared/optiga-trust-m/latest-v3.X/pal/libusb
+../mtb_shared/optiga-trust-m/latest-v3.X/pal/linux
+../mtb_shared/optiga-trust-m/latest-v3.X/pal/xmc4800
+../mtb_shared/optiga-trust-m/latest-v3.X/pal/xmc4800_freertos
+
+# Not required Crypto midlayers
+../mtb_shared/optiga-trust-m/latest-v3.X/pal/pal_crypt_openssl.c
+../mtb_shared/optiga-trust-m/latest-v3.X/pal/pal_crypt_wolfssl.c
+
+# Not required executeable for tools
+../mtb_shared/optiga-trust-m/latest-v3.X/examples/tools/protected_update_data_set
+../mtb_shared/optiga-trust-m/latest-v3.X/examples/utilities/authenticate_chip
+../mtb_shared/optiga-trust-m/latest-v3.X/examples/utilities/pkcs11_trustm.c
+../mtb_shared/optiga-trust-m/latest-v3.X/examples/utilities/trustm_chipinfo.c
+../mtb_shared/optiga-trust-m/latest-v3.X/examples/optiga_shell.c
+../mtb_shared/optiga-trust-m/latest-v3.X/examples/optiga/example_optiga_crypt_clear_auto_state.c
+../mtb_shared/optiga-trust-m/latest-v3.X/examples/optiga/example_optiga_crypt_ecc_generate_keypair.c
+../mtb_shared/optiga-trust-m/latest-v3.X/examples/optiga/example_optiga_crypt_ecdh.c
+../mtb_shared/optiga-trust-m/latest-v3.X/examples/optiga/example_optiga_crypt_ecdsa_sign.c
+../mtb_shared/optiga-trust-m/latest-v3.X/examples/optiga/example_optiga_crypt_ecdsa_verify.c
+../mtb_shared/optiga-trust-m/latest-v3.X/examples/optiga/example_optiga_crypt_hash.c
+../mtb_shared/optiga-trust-m/latest-v3.X/examples/optiga/example_optiga_crypt_hkdf.c
+../mtb_shared/optiga-trust-m/latest-v3.X/examples/optiga/example_optiga_crypt_hmac.c
+../mtb_shared/optiga-trust-m/latest-v3.X/examples/optiga/example_optiga_crypt_random.c
+../mtb_shared/optiga-trust-m/latest-v3.X/examples/optiga/example_optiga_crypt_rsa_decrypt.c
+../mtb_shared/optiga-trust-m/latest-v3.X/examples/optiga/example_optiga_crypt_rsa_encrypt_message.c
+../mtb_shared/optiga-trust-m/latest-v3.X/examples/optiga/example_optiga_crypt_rsa_encrypt_session.c
+../mtb_shared/optiga-trust-m/latest-v3.X/examples/optiga/example_optiga_crypt_rsa_generate_keypair.c
+../mtb_shared/optiga-trust-m/latest-v3.X/examples/optiga/example_optiga_crypt_rsa_sign.c
+../mtb_shared/optiga-trust-m/latest-v3.X/examples/optiga/example_optiga_crypt_rsa_verify.c
+../mtb_shared/optiga-trust-m/latest-v3.X/examples/optiga/example_optiga_crypt_symmetric_encrypt_decrypt.c
+../mtb_shared/optiga-trust-m/latest-v3.X/examples/optiga/example_optiga_crypt_symmetric_encrypt_decrypt_ecb.c
+../mtb_shared/optiga-trust-m/latest-v3.X/examples/optiga/example_optiga_crypt_symmetric_generate_key.c
+../mtb_shared/optiga-trust-m/latest-v3.X/examples/optiga/example_optiga_crypt_tls_prf_sha256.c
+../mtb_shared/optiga-trust-m/latest-v3.X/examples/optiga/example_optiga_hmac_verify_with_authorization_reference.c
+../mtb_shared/optiga-trust-m/latest-v3.X/examples/optiga/example_pair_host_and_optiga_using_pre_shared_secret.c
